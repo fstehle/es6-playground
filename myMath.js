@@ -10,4 +10,4 @@ class MyMath {
     }
 }
 
-module.exports = MyMath;
+export default MyMath;
