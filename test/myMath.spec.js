@@ -1,12 +1,12 @@
 // Import chai.
-let chai = require('chai');
-let path = require('path');
+import chai from 'chai';
+import path from 'path';
 
 // Tell chai that we'll be using the "should" style assertions.
 chai.should();
 
 // Import the Math class.
-let MyMath = require(path.join(__dirname, '..', 'myMath'));
+import MyMath from '../myMath';
 
 describe('MyMath', () => {
   describe('toInt', () => {
