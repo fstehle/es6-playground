@@ -6,11 +6,13 @@
   "dependencies": {},
   "devDependencies": {
     "babel": "^5.8.29",
+    "babel-loader": "^5.3.2",
     "chai": "^3.4.0",
     "mocha": "^2.3.3"
   },
   "scripts": {
-    "test": "mocha --colors --compilers js:babel/register"
+    "test": "mocha --colors --compilers js:babel/register",
+    "build": "webpack --colors --progress"
   },
   "author": "Fabian Stehle",
   "license": "MIT"
