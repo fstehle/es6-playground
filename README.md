@@ -10,6 +10,12 @@ My playground for ECMAScript 6
 npm test
 ```
 
+## Building the project
+
+```shell
+npm run build
+```
+
 ## License
 
 MIT License. &copy; 2015 Fabian Stehle
