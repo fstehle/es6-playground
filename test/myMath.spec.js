@@ -15,4 +15,11 @@ describe('MyMath', () => {
     });
 
   });
+
+  describe('sqrt', () => {
+    it('returns the correct square root', () => {
+      MyMath.sqrt(9).should.equal(3);
+    });
+
+  });
 });
